@@ -19,10 +19,9 @@ $footerBgColor:#0b2d35;
     font-family: bahnschrift;
 }
 body{
-    width: 100vw;
+    width: 100%;
     margin:0;
     height:100vh;
-    overflow-x: hidden;
 }
 html{
     overflow-x: hidden;
@@ -179,9 +178,9 @@ html{
      top:100vh;
      width:100%;
      margin:auto;
-     #crow1{
+     #content1{
         padding-bottom:50px;
-        .crow1-heading{
+        .content1-heading{
             padding: 50px 5px 10px 5px;
         }
      }
@@ -217,7 +216,7 @@ html{
  }
 
  //BUSINESS SECTION 2
- #crow2{
+ #content2{
      background-color: $smmBgColor;
      padding:50px;
      width:100%;
@@ -261,7 +260,7 @@ html{
 }
 
 // BUSINESS SECTION 3
-#crow3{
+#content3{
     padding:50px 20px 50px 20px;
     .row{
         .container{
@@ -295,7 +294,7 @@ html{
         }
     }
 }
-#crow4{
+#content4{
     width:100%;
     padding:50px;
     background-color: $wddBgColor;
@@ -337,7 +336,7 @@ html{
         }
     }
 }
-#crow5{
+#content5{
     width:100%;
     padding:50px;
     background-color: $gdBgColor;
@@ -380,7 +379,7 @@ html{
         }
     }
 }
-#crow6{
+#content6{
     width: 100%;
     padding:50px;
     .container{
@@ -437,10 +436,10 @@ html{
         box-shadow: -1px -1px 10px 4px rgba(0,0,0,0.1);
     }
 }
-#crow6-mobile{
+#content6-mobile{
     display:none;
 }
-#crow7{
+#content7{
     .container{
         width:90%;
     }
@@ -711,11 +710,11 @@ html{
 
     //BUSINESS SECTION
     #business-section{
-        transform: translateY(-30vh);
+        transform: translateY(-35vh);
     }
 
     //UNMATCHED SERVICES
-    #crow1{
+    #content1{
         width:95%;
         margin:auto;
         .text-area{
@@ -749,7 +748,7 @@ html{
     //END UNMATCHED SERVICES
 
     //SOCIAL MEDIA MARKETING
-    #crow2{
+    #content2{
         border-radius: 20px;
         padding: 30px 15px;
         .row{
@@ -785,16 +784,16 @@ html{
     //END SOCIAL MEDIA MARKETING
 
     //STRATEGY , CONTENT ,PLATFORM
-    #crow3{
+    #content3{
         #card-text{
             display: none;
         }
     }
-    #crow3 .row .container {
+    #content3 .row .container {
         width:100%;
         padding:0px;
     }
-    #crow3 .row .container .card {
+    #content3 .row .container .card {
         height: 30px;
         border-radius: 50rem;
         width:98%;
@@ -827,7 +826,7 @@ html{
     // END STRATEGY, CONTENT, PLATFORM
 
     //WEB DEVELOPMENT & DESIGN
-    #crow4{
+    #content4{
         border-radius: 20px;
         padding: 30px 15px;
         .row{
@@ -860,7 +859,7 @@ html{
     //END WEB DEVELOPMENT & DESIGN
 
     //GRAPHIC DESIGN
-    #crow5{
+    #content5{
         border-radius: 20px;
         padding: 30px 15px;
         .row{
@@ -894,14 +893,14 @@ html{
     //END GRAPHIC DESIGN
 
     //WHY CHOOSE US
-    #crow6{
+    #content6{
         display: none;
     }
-    #crow6-mobile{
+    #content6-mobile{
         display: block;
         padding-top:30px;
         padding-bottom: 10px;
-        #crow6-mobile-heading{
+        #content6-mobile-heading{
             font-size:25px;
         }
         #whyChooseUs{
@@ -944,7 +943,7 @@ html{
     //END WHY CHOOSE US
 
     //FOOTER
-    #crow7{
+    #content7{
         border-top-left-radius:20px;
         border-top-right-radius:20px;
         .container{
